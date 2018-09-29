@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  padding-top: 110px;
+  padding-bottom: 70px;
+  background-color: black;
+  color: lightgray;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-size: 3;
+}
+
+a:link {
+  color: deepskyblue;
+  text-decoration-line: underline;
+}
+
+a:visited {
+  color: lightsteelblue;
+  text-decoration-line: underline;
+}
+
+#top-navbar {
+  background-color: black;
+  border: none;
+}
+
+#top-navbar a {
+  /* height: 80px; */
+  color: crimson; /* color code is #DC143C */
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-weight: 600;
+  background-color: black;
+}
+
+#top-navbar .navbar-brand {
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+#top-navbar .navbar-nav a:active {
+  background-color: #6B6B6B;
+}
+
+#top-navbar .disabled {
+  background-color: #330000;
+  color: brown;
+}
+
+#top13-dropdown .dropdown-menu,
+#othersites-dropdown .dropdown-menu,
+#about-dropdown .dropdown-menu {
+  background-color: black;
+}
+
+#footer_row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: black; 
+}
+
+#footer_title{
+  color: brown;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-style: italic;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#title h1 {
+  color: crimson;
+  text-decoration: underline;
+}
+
+#title h2 {
+  color: brown;
+  font-style: italic;
+}
+
+#main h1 {
+  color: crimson;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  text-decoration: underline;
+}
+
+#main h2 {
+  color: brown;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-style: italic;
+}
+
+#main h3 {
+  color: brown;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  font-size: large;
+}
+
+#main p {
+  width: 95%;
+  margin-left: 15px;
+}
+
+#main img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#main audio {
+  width: 90%;
+}
+
+#main .alert-warning {
+  background-color: black;
+  color: crimson;
+  text-decoration: underline;
+}
+
+#right_panel .btn-map,
+#main .btn-map  {
+  background-color: maroon;
+  color: lightgray;
+  height: 35px;
+  padding: 5px;
+  border-color: crimson;
+}
+
+#Input_Name,
+#Input_Email,
+#Input_Comment {
+  width: 439px;
+  height: 40px;
+  color: white;
+  background-color: dimgray;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 0.9em;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;  
+}
+
+#Input_Name:focus,
+#Input_Email:focus,
+#Input_Comment:focus {
+  background-color: darkred;
+}
+
+#Input_Comment {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 150px;
+}
+
+#Input_Submit {
+  width:130px;
+  height:40px;
+  background-color: dimgray;
+  color: lightgrey;
+  border: 1px solid lightgray;
+  margin-top:20px;
+  cursor:pointer;
+}
+
+#Input_Submit:hover {
+  opacity: .9;
+  color: lightpink;
+}
+
+#BoohillRoll {
+  border-collapse: collapse;
+}
+
+#BoothillRoll td {
+  padding: 5px 10px;
+  border: 1px solid #999;
+}
+
+#BoothillRoll tr:nth-child(odd) {
+  background-color: #222;
+}
+
+th[data-sort]{
+  cursor: pointer;
+  background-color: #444;
+  text-align: center;
+}
+
+.breadcrumb {
+  background-color: black;
+}
+
+.shortdivider {
+  width: 50%;
+}
+
+.dark-text {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;  
+}
+
+.bg-info {
+  background-color: maroon;
+  color: burlywood;
+  font-style: italic;
+  padding: 5px;
+  border-style: solid none solid none;
+  border-width: thin;
+  border-color: burlywood;
+}
+
+.bg-note {
+  background-color: #303030;
+  color: lightblue;
+  padding: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightblue;
+}
+
+.blockquote {
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-size: small;
+  font-style: italic;
+  color: lightgray;
+}
+
+.img-right {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fb-share-button {
+/* Placeholder */  
+}
+
+.twitter-mention-button {
+/* Placeholder */  
+}
+
+.normal {
+/* Placeholder */  
+}
+
+.gallery {
+/* For the gallery photo pages */  
+}
+
